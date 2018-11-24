@@ -1,0 +1,32 @@
+Instalar GoLang:
+
+baixa aqui:
+https://golang.org/dl/
+
+
+extrai e move pra /usr/local
+adiciona isso no bashrc:
+
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+
+Cria uma pasta na home e coloca o nome "go"
+Cria uma pasta dentro com o nome "hello"
+Copia o codigo abaixo e salva com o nome hello.go
+
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Printf("hello, world\n")
+}
+
+
+Abre o terminal na pasta que o arquivo tá e digita: 
+go run hello.go
+
+
+Baixar GoSpace:
+No terminal insira:
+go get -u github.com/pspaces/gospace
